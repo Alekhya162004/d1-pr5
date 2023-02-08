@@ -1,0 +1,50 @@
+n=int(input("enter the num of fresh loaves purchaced:"))
+o=int(input("enter the num of day old loaves purchaced:"))
+r=int(input("regular price of lovas:"))
+print("regular price:",r)
+print("amount of new loaves",n*r)
+print("amount of day old loaves",(r-(60/100)*185)*o)
+print("total amount",(n*r)+(r-(60/100)*185)*o)
+
+
+
+
+=============== RESTART: C:/Users/mahic/OneDrive/Desktop/d1-p5.py ==============
+enter the num of fresh loaves purchaced:5
+enter the num of day old loaves purchaced:3
+regular price of lovas:185
+regular price: 185
+amount of new loaves 925
+amount of day old loaves 222.0
+total amount 1147.0
+
+=============== RESTART: C:/Users/mahic/OneDrive/Desktop/d1-p5.py ==============
+enter the num of fresh loaves purchaced:4
+enter the num of day old loaves purchaced:6
+regular price of lovas:185
+regular price: 185
+amount of new loaves 740
+amount of day old loaves 444.0
+total amount 1184.0
+
+=============== RESTART: C:/Users/mahic/OneDrive/Desktop/d1-p5.py ==============
+enter the num of fresh loaves purchaced:0
+enter the num of day old loaves purchaced:6
+regular price of lovas:185
+regular price: 185
+amount of new loaves 0
+amount of day old loaves 444.0
+total amount 444.0
+
+=============== RESTART: C:/Users/mahic/OneDrive/Desktop/d1-p5.py ==============
+enter the num of fresh loaves purchaced:7
+enter the num of day old loaves purchaced:8
+regular price of lovas:185
+regular price: 185
+amount of new loaves 1295
+amount of day old loaves 592.0
+total amount 1887.0
+ 
+
+
+
